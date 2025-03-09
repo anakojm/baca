@@ -8,7 +8,7 @@ from baca.models import Segment, SegmentType
 
 
 class MarkdownConverter(_MarkdownConverter):
-    def convert_img(self, el, text, convert_as_inline):
+    def convert_img(self, el, text, parent_tags):
         return ""
 
 
